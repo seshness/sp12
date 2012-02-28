@@ -348,7 +348,7 @@ Since you created your own models you will need to plug them  into our views thr
     * @eventStarts - DateTime of start of event
     * @eventEnds - DateTime of end  of event
     * @eventUserName - name of the owner of the event
-    * @calendars - A hash where the key is the calendars name and the value is its identifier for all calendars the user owns.
+    * @calendars - A hash where the key is the calendar's name and the value is its identifier, for each calendar the user owns.
 
 ### before_filter methods
 These are in place to ensure you can't access the information of another user, we have already designated which methods these filters apply to you just need to fill them in in application_controller.rb
